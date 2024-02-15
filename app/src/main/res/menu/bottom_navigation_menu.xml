@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    >
+    <item
+        android:id="@+id/FirstFragment"
+        android:icon="@drawable/collections_bookmark_fill0_wght400_grad0_opsz48"
+        android:title="Issued" />
+    <item
+        android:id="@+id/SecondFragment"
+        android:icon="@drawable/explore_fill0_wght400_grad0_opsz48"
+        android:title="Discover" />
+
+</menu>

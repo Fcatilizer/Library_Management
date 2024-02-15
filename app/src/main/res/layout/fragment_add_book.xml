@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddBookFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="Add Books"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="?attr/colorPrimary" />
+
+        <EditText
+            android:id="@+id/addName"
+            android:maxLines="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="20dp"
+            android:hint="Enter Book Name"
+            android:layout_width="match_parent"
+            android:layout_below="@id/title"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/addAuthor"
+            android:maxLines="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Enter Author Name"
+            android:layout_width="match_parent"
+            android:layout_below="@id/addName"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/addYear"
+            android:maxLines="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Enter Book Year"
+            android:layout_width="match_parent"
+            android:layout_below="@id/addAuthor"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/addIsbn"
+            android:maxLines="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Enter ISBN"
+            android:layout_width="match_parent"
+            android:layout_below="@id/addYear"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/Register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addIsbn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Add Book"
+            android:inputType="number"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

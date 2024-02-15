@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/admin_graph"
+    app:startDestination="@id/addBookFragment">
+
+
+    <fragment
+        android:id="@+id/addBookFragment"
+        android:name="com.example.librarymanagement.AddBookFragment"
+        android:label="Add Book"
+        tools:layout="@layout/fragment_add_book" />
+
+    <fragment
+        android:id="@+id/addAssignFragment"
+        android:name="com.example.librarymanagement.addAssignFragment"
+        android:label="Assign to Student"
+        tools:layout="@layout/fragment_add_assign" >
+        <action
+            android:id="@+id/action_addAssignFragment_to_userFragment"
+            app:destination="@id/userFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userFragment"
+        android:name="com.example.librarymanagement.UserFragment"
+        android:label="Assign to Student"
+        tools:layout="@layout/fragment_add_assign" />
+
+</navigation>

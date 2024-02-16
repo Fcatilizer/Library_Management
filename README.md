@@ -20,15 +20,15 @@
 
 ## Screenshots
 #### Home Screen
-![Library Management](/screenshots/1.png) 
-![Library Management](/screenshots/2.png)
-![Library Management](/screenshots/3.png)
+![Library Management](/Screenshots/1.png) 
+![Library Management](/Screenshots/2.png)
+![Library Management](/Screenshots/3.png)
 
 #### Student Dashboard
-![Library Management](/screenshots/4.png)
-![Library Management](/screenshots/5.png)
+![Library Management](/Screenshots/4.png)
+![Library Management](/Screenshots/5.png)
 
 #### Admin Dashboard
-![Library Management](/screenshots/6.png)
-![Library Management](/screenshots/7.png)
-![Library Management](/screenshots/8.png)
+![Library Management](/Screenshots/6.png)
+![Library Management](/Screenshots/7.png)
+![Library Management](/Screenshots/8.png)

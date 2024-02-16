@@ -1,4 +1,4 @@
-![Library Management](/app/src/main/res/drawable/library_management.png)
+![Library Management](/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png)
 
 ## Library Management
 #### Build on Material 3 UI

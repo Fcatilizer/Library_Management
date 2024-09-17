@@ -17,6 +17,10 @@
 - [x] This is a simple library management app.
 - [x] This app requires a Firebase project to be created and the google-services.json file to be added to the app module.
 - [x] This app was built for learning purposes only. If you want to use it for production, you are responsible for it.
+- [x] The Student Sign-In section is designed with regex to accept values like UG/02/BTCSEAIML/2021/003. For further inspection check this -
+ ```kotlin
+ val isRollNumber = rollNumber.text.toString().trim().matches(Regex("([A-Z])+/[0-9]+/[A-Z]+/[0-9]+/[0-9]+"))
+ ```
 
 ## Screenshots
 #### Home Screen
